@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/maze_select" android:title="Select Maze"
+        android:orderInCategory="100" app:showAsAction="never" >
+    <menu>
+        <item android:id="@+id/maze_0" android:title="Maze 1"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_1" android:title="Maze 2"
+            android:orderInCategory="100"/>
+        <item android:id="@+id/maze_2" android:title="Maze 3"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_3" android:title="Maze 4"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_4" android:title="Maze 5"
+            android:orderInCategory="100"/>
+        <item android:id="@+id/maze_5" android:title="Maze 6"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_6" android:title="Maze 7"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_7" android:title="Maze 8"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_8" android:title="Maze 9"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_9" android:title="Maze 10"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_10" android:title="Maze 11"
+            android:orderInCategory="100"/>
+        <item android:id="@+id/maze_11" android:title="Maze 12"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_12" android:title="Maze 13"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_13" android:title="Maze 14"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_14" android:title="Maze 15"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_15" android:title="Maze 16"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_16" android:title="Maze 17"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_17" android:title="Maze 18"
+            android:orderInCategory="100" />
+        <item android:id="@+id/maze_18" android:title="Maze 19"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/maze_19" android:title="Maze 20"
+            android:orderInCategory="100" />
+    </menu>
+    </item>
+    <item android:id="@+id/action_show_start" android:title="@string/action_show_start"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_hide_start" android:title="@string/action_hide_start"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

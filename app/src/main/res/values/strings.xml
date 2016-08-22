@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maze</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_show_start">Show Start of Maze</string>
+    <string name="action_hide_start">Hide Start of Maze</string>
+    <string name="winner">You got out!</string>
+    <string name="next">Next Level</string>
+
+</resources>

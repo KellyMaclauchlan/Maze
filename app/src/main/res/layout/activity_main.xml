@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:outlineProvider="none"
+    android:background="@drawable/oooo"
+    android:id="@+id/layout">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/up"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/arrow"
+        android:visibility="visible"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/down"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/arrow2"
+        android:visibility="visible"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left"
+        android:src="@drawable/arrow1"
+        android:visibility="visible"
+        android:background="@null"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right"
+        android:src="@drawable/arrow3"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        android:background="@null"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/winner"
+        android:id="@+id/congrats"
+        android:layout_alignBottom="@+id/right"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textColor="#feff1376"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/nextButton"
+        android:singleLine="true"
+        android:visibility="invisible"
+        android:background="#ffffffff"
+        android:layout_alignTop="@+id/down"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miniMap"
+        android:visibility="visible"
+        android:background="@null"
+        android:src="@drawable/maze1s"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/congrats"
+        android:layout_alignStart="@+id/congrats"
+        android:layout_alignRight="@+id/congrats"
+        android:layout_alignEnd="@+id/congrats" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1    "
+        android:id="@+id/levelText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:editable="false" />
+
+</RelativeLayout>
